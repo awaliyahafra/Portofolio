@@ -485,10 +485,6 @@ span {
         margin-bottom: 3rem;
     }
 
-    .skills-container {
-        grid-template-columns: repeat(2.1fr);
-    }
-
     .portfolio h2 {
         margin-bottom: 3rem;
     }
@@ -506,6 +502,18 @@ span {
     html {
         font-size: 50%;
     }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .certificate-container {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 @media (max-width: 365px) {
@@ -515,6 +523,19 @@ span {
 
     .about-img img {
         width: 90vw;
+    }
+
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .certificate-container {
+        grid-template-columns: repeat(1,1fr);
     }
 
     .footer {
